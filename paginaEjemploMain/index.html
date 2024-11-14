@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo main</title>
+</head>
+<body>
+    <div>
+        <p>Dime tu nombre: </p>
+        <input id="nombre" type="text">
+        <p>Dime tu primer numero: </p>
+        <input id="n1" type="number">
+        <p>Dime tu segundo numero: </p>
+        <input id="n2" type="number">
+        <p>Elige la opcion que quieres escoger</p>
+        <input id="op" type="text" list="opc">
+
+        <button id="btn">Continuar</button>
+
+        <datalist id="opc">
+            <option value="Suma"></option>
+            <option value="Resta"></option>
+        </datalist>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
